@@ -1,0 +1,132 @@
+library(hypercore_cmos7nm) {
+  delay_model : table_lookup;
+  time_unit : "1ps";
+  capacitive_load_unit (1, ff);
+  lu_table_template(nldm2x2) {
+    variable_1 : input_net_transition;
+    variable_2 : total_output_net_capacitance;
+    index_1 ("5, 25");
+    index_2 ("1, 8");
+  }
+  cell(BUF) {
+    area : 2.0;
+    pin(A) { direction : input; capacitance : 1.0; }
+    pin(Y) { direction : output; function : "A";
+      timing() { related_pin : "A";
+        cell_rise(nldm2x2) { values("9, 16", "13, 22"); }
+        cell_fall(nldm2x2) { values("9, 16", "13, 22"); }
+        rise_transition(nldm2x2) { values("5, 14", "9, 19"); }
+        fall_transition(nldm2x2) { values("5, 14", "9, 19"); }
+      }
+    }
+  }
+  cell(INV) {
+    area : 1.0;
+    pin(A) { direction : input; capacitance : 1.0; }
+    pin(Y) { direction : output; function : "!A";
+      timing() { related_pin : "A";
+        cell_rise(nldm2x2) { values("6, 12", "9, 16"); }
+        cell_fall(nldm2x2) { values("6, 12", "9, 16"); }
+        rise_transition(nldm2x2) { values("4, 11", "7, 15"); }
+        fall_transition(nldm2x2) { values("4, 11", "7, 15"); }
+      }
+    }
+  }
+  cell(NAND2) {
+    area : 2.0;
+    pin(A) { direction : input; capacitance : 1.0; }
+    pin(B) { direction : input; capacitance : 1.0; }
+    pin(Y) { direction : output; function : "!(A*B)";
+      timing() { related_pin : "A";
+        cell_rise(nldm2x2) { values("8, 15", "12, 20"); }
+        cell_fall(nldm2x2) { values("8, 15", "12, 20"); }
+        rise_transition(nldm2x2) { values("5, 13", "8, 18"); }
+        fall_transition(nldm2x2) { values("5, 13", "8, 18"); }
+      }
+      timing() { related_pin : "B";
+        cell_rise(nldm2x2) { values("8, 15", "12, 20"); }
+        cell_fall(nldm2x2) { values("8, 15", "12, 20"); }
+        rise_transition(nldm2x2) { values("5, 13", "8, 18"); }
+        fall_transition(nldm2x2) { values("5, 13", "8, 18"); }
+      }
+    }
+  }
+  cell(NOR2) {
+    area : 2.0;
+    pin(A) { direction : input; capacitance : 1.0; }
+    pin(B) { direction : input; capacitance : 1.0; }
+    pin(Y) { direction : output; function : "!(A+B)";
+      timing() { related_pin : "A";
+        cell_rise(nldm2x2) { values("9, 17", "14, 23"); }
+        cell_fall(nldm2x2) { values("9, 17", "14, 23"); }
+        rise_transition(nldm2x2) { values("6, 15", "9, 20"); }
+        fall_transition(nldm2x2) { values("6, 15", "9, 20"); }
+      }
+      timing() { related_pin : "B";
+        cell_rise(nldm2x2) { values("9, 17", "14, 23"); }
+        cell_fall(nldm2x2) { values("9, 17", "14, 23"); }
+        rise_transition(nldm2x2) { values("6, 15", "9, 20"); }
+        fall_transition(nldm2x2) { values("6, 15", "9, 20"); }
+      }
+    }
+  }
+  cell(XOR2) {
+    area : 4.0;
+    pin(A) { direction : input; capacitance : 1.0; }
+    pin(B) { direction : input; capacitance : 1.0; }
+    pin(Y) { direction : output; function : "A^B";
+      timing() { related_pin : "A";
+        cell_rise(nldm2x2) { values("14, 24", "19, 31"); }
+        cell_fall(nldm2x2) { values("14, 24", "19, 31"); }
+        rise_transition(nldm2x2) { values("6, 15", "10, 20"); }
+        fall_transition(nldm2x2) { values("6, 15", "10, 20"); }
+      }
+      timing() { related_pin : "B";
+        cell_rise(nldm2x2) { values("14, 24", "19, 31"); }
+        cell_fall(nldm2x2) { values("14, 24", "19, 31"); }
+        rise_transition(nldm2x2) { values("6, 15", "10, 20"); }
+        fall_transition(nldm2x2) { values("6, 15", "10, 20"); }
+      }
+    }
+  }
+  cell(MUX2) {
+    area : 4.0;
+    pin(A) { direction : input; capacitance : 1.0; }
+    pin(B) { direction : input; capacitance : 1.0; }
+    pin(S) { direction : input; capacitance : 1.2; }
+    pin(Y) { direction : output; function : "(A*!S)+(B*S)";
+      timing() { related_pin : "A";
+        cell_rise(nldm2x2) { values("12, 21", "17, 27"); }
+        cell_fall(nldm2x2) { values("12, 21", "17, 27"); }
+        rise_transition(nldm2x2) { values("6, 14", "9, 19"); }
+        fall_transition(nldm2x2) { values("6, 14", "9, 19"); }
+      }
+      timing() { related_pin : "B";
+        cell_rise(nldm2x2) { values("12, 21", "17, 27"); }
+        cell_fall(nldm2x2) { values("12, 21", "17, 27"); }
+        rise_transition(nldm2x2) { values("6, 14", "9, 19"); }
+        fall_transition(nldm2x2) { values("6, 14", "9, 19"); }
+      }
+      timing() { related_pin : "S";
+        cell_rise(nldm2x2) { values("14, 23", "19, 29"); }
+        cell_fall(nldm2x2) { values("14, 23", "19, 29"); }
+        rise_transition(nldm2x2) { values("6, 14", "9, 19"); }
+        fall_transition(nldm2x2) { values("6, 14", "9, 19"); }
+      }
+    }
+  }
+  cell(DFF) {
+    area : 6.0;
+    ff(IQ, IQN) { clocked_on : "C"; next_state : "D"; }
+    pin(C) { direction : input; clock : true; capacitance : 1.2; }
+    pin(D) { direction : input; capacitance : 1.0; }
+    pin(Q) { direction : output; function : "IQ";
+      timing() { related_pin : "C"; timing_type : rising_edge;
+        cell_rise(nldm2x2) { values("15, 24", "20, 30"); }
+        cell_fall(nldm2x2) { values("15, 24", "20, 30"); }
+        rise_transition(nldm2x2) { values("6, 14", "9, 19"); }
+        fall_transition(nldm2x2) { values("6, 14", "9, 19"); }
+      }
+    }
+  }
+}
