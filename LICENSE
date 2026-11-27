@@ -1,0 +1,240 @@
+HYPERACTIVE ANTI-CAPITALIST COMMONS & COMMERCIAL LICENSE
+Version 1.0 (Copyfarleft · Non-Capitalist Network Share-Alike + Paid Commercial Dual License)
+
+Copyright (c) 2026 Hyperactive Labs, Inc. and Avik Jain.
+All rights reserved except as expressly granted in this License.
+
+Commercial Licensing & Inquiries:
+  Hyperactive Labs, Inc. (Attn: Avik Jain)
+  Email: root@hyperactivity.ai
+  Web:   https://hyperactivity.ai
+
+================================================================================
+SUMMARY OF INTENT (NON-BINDING OVERVIEW; OPERATIVE TERMS FOLLOW IN SECTIONS 1-9)
+================================================================================
+
+Standard permissive licenses (MIT, Apache, BSD) and standard Open Source
+copyleft licenses (GPL, AGPL) are not anti-capitalist: they allow investor-owned
+corporations, financial institutions, cloud monopolies, and commercial AI
+laboratories to extract uncompensated value from the intellectual commons, run
+internal proprietary deployments, and train closed foundation models without
+paying or reciprocating to the creators or the commons.
+
+This License establishes a strict Copyfarleft dual regime:
+
+  1. FREE FOR HUMAN INTELLIGENCE OUTSIDE CAPITALIST ENTERPRISE (COMMONS GRANT):
+     Any natural person acting outside capitalist employment/enterprise, any
+     student, educator, independent researcher, non-commercial academic or
+     public-interest research group, charitable nonprofit, or democratically
+     governed 100% worker-owned cooperative may freely read, compile, execute,
+     verify, modify, teach, and share The Work — provided that all shared or
+     network-served derivatives remain under this exact License with full
+     machine-readable source disclosed (Strong Network Share-Alike).
+
+  2. PAID LICENSE REQUIRED FOR CAPITALIST ENTITIES & COMMERCIAL / AI USE:
+     Zero rights are granted under this License to any for-profit corporation,
+     venture-backed or investor-owned business, hedge fund or trading firm,
+     commercial cloud provider, commercial silicon vendor, or commercial AI
+     laboratory. Capitalist Entities must purchase a written commercial license
+     from Hyperactive Labs, Inc. before copying, compiling, running, evaluating,
+     deploying, fabricating hardware from, or training AI models on The Work.
+
+================================================================================
+OPERATIVE TERMS AND CONDITIONS
+================================================================================
+
+1. DEFINITIONS
+
+1.1 "Licensor" means Hyperactive Labs, Inc. and Avik Jain, together with any
+    successor or assign of their copyright and licensing authority.
+
+1.2 "The Work" means all material distributed in or replicated from this
+    repository or its content-addressed pool (`store/`), including without
+    limitation all `.cub` and `.hypercubical` modules, C and assembly sources,
+    interaction-net runtimes, typecheckers, compilers, lifters, formal proofs,
+    mathematical and scientific derivations, RTL/GDSII silicon descriptions,
+    web interfaces, documentation, essays, and content-addressed objects.
+
+1.3 "Derivative Work" means any modification, translation, port, lowering,
+    compilation, lifted or emitted code (including C, Rust, LLVM IR, x86-64,
+    WASM, Verilog/RTL, or GDSII), linked system, or extension of the content-
+    addressed pool that incorporates, adapts, or depends upon any protected
+    expression of The Work.
+
+1.4 "Commons Licensee" means exclusively:
+    (a) a natural person acting strictly in an individual, personal, artistic,
+        educational, or independent scientific capacity, outside the scope of
+        any employment, consultancy, agency, or fiduciary duty for a Capitalist
+        Entity;
+    (b) a public school, public or non-profit university, or registered
+        non-profit charitable/scientific organization (such as a U.S. IRC
+        501(c)(3) organization or international equivalent) acting solely for
+        non-commercial education, open scientific research, or non-commercial
+        public service, provided no Capitalist Entity receives exclusive,
+        proprietary, or preferential commercial rights in the resulting work;
+    (c) a democratically governed worker-owned cooperative in which (i) 100%
+        of voting governance and residual surplus belong to its worker-members
+        on a one-worker-one-vote basis, (ii) zero equity, convertible debt
+        carrying governance/royalty extraction, or profit participation is held
+        by non-worker investors, and (iii) the cooperative does not employ
+        non-member wage labor (other than a transparent, time-bounded
+        probationary track of twelve months or less leading directly to full
+        worker-membership); or
+    (d) an unincorporated non-commercial collective or peer-to-peer commons
+        operating without revenue extraction, investor ownership, or wage labor.
+
+1.5 "Capitalist Entity" means any legal person, enterprise, organization, or
+    arrangement that is not a Commons Licensee. Without limitation, "Capitalist
+    Entity" includes every privately or publicly held for-profit corporation,
+    limited liability company, partnership, venture-backed startup, sole
+    proprietorship employing non-owner labor, bank, hedge fund, market maker,
+    proprietary trading firm, asset manager, insurance company, defense or
+    intelligence contractor, telecommunications or cloud operator, semiconductor
+    company, and commercial AI or research laboratory (including any "capped-
+    profit" entity, public-benefit corporation, or for-profit subsidiary or
+    affiliate of a non-profit foundation).
+
+1.6 "Capitalist or Commercial Use" means any reproduction, storage, compilation,
+    execution, evaluation, benchmarking, internal research and development,
+    internal tooling, production deployment, network or SaaS hosting, consulting
+    delivery, financial/trading execution, hardware/FPGA/ASIC/GDSII synthesis
+    or fabrication, or distribution of The Work or any Derivative Work:
+    (a) by, at the direction of, or for the benefit of a Capitalist Entity;
+    (b) by any employee, officer, founder, partner, contractor, or agent of a
+        Capitalist Entity acting within the scope of their engagement or using
+        equipment, cloud accounts, or funds of a Capitalist Entity; or
+    (c) in exchange for commercial fees, subscriptions, licensing revenue,
+        advertising, data monetization, financial trading return, or privately
+        appropriated commercial advantage.
+
+1.7 "AI & Automated Model Ingestion" means any scraping, copying, curation,
+    tokenization, pre-training, continued training, fine-tuning, reinforcement
+    learning, preference optimization, reward modeling, proof/trace harvesting,
+    synthetic-data generation, knowledge distillation, embedding generation, or
+    retrieval-augmented generation (RAG) performed on or using The Work or any
+    output generated by executing The Work.
+
+2. COMMONS LICENSE GRANT (COPYFARLEFT)
+
+Subject to strict and continuous compliance with Sections 3 and 4, Licensor
+hereby grants to each Commons Licensee a worldwide, royalty-free, non-exclusive,
+non-sublicensable license under Licensor's copyrights (and, to the extent
+stated in Section 6, Licensor's essential patent claims) to:
+
+  (a) clone, copy, store, inspect, compile, execute, and formally verify The
+      Work for non-capitalist Commons purposes;
+  (b) create Derivative Works for non-capitalist Commons purposes; and
+  (c) distribute copies of The Work and Derivative Works to other Commons
+      Licensees, and operate public non-commercial peer-to-peer or web nodes
+      from The Work, strictly under the terms of this License.
+
+3. STRONG NETWORK SHARE-ALIKE & ANTI-ENCLOSURE CONDITIONS
+
+The grant in Section 2 is expressly conditioned on all of the following:
+
+3.1 Same License Only (No Permissive Laundering). Every copy of The Work and
+    every Derivative Work that you distribute, publish, replicate into a public
+    content-addressed pool, or make available to any third party must be
+    licensed as a whole under this exact License (or, at your option, a later
+    version published by Licensor). You may not relicense The Work or any
+    Derivative Work under MIT, BSD, Apache, GPL, AGPL, Creative Commons, or
+    proprietary terms, nor impose additional restrictions on Commons Licensees.
+
+3.2 Network & Peer-to-Peer Source Disclosure. If you modify The Work or create
+    a Derivative Work (including extending `store/` modules, altering server or
+    kernel behavior, or compiling specialized binaries/WASM/silicon) and enable
+    users to interact with it remotely over any network (HTTP, WebSocket,
+    WebRTC, P2P content-addressed sync, RPC, or remote proof checking), you must
+    prominently provide every interacting user immediate, no-charge network
+    access to download the complete corresponding machine-readable source text
+    and content-addressed dependency closure under this License.
+
+3.3 Preservation of Notices & Content Provenance. You must retain intact all
+    copyright, authorship, attribution, cryptographic hash, and license notices
+    in every source file, `README`, user interface footer, and replicated store
+    manifest.
+
+4. EXPRESS EXCLUSION OF CAPITALIST ENTITIES, COMMERCIAL USE & AI SCRAPING
+
+4.1 Zero License to Capitalist Entities ("Pay to Touch"). THIS LICENSE GRANTS
+    ZERO RIGHTS TO ANY CAPITALIST ENTITY AND ZERO RIGHTS FOR ANY CAPITALIST OR
+    COMMERCIAL USE. Without a separate, written, fee-bearing commercial license
+    agreement executed in advance by Hyperactive Labs, Inc., a Capitalist
+    Entity has no permission under copyright, patent, or applicable law to
+    clone, download, store, copy, compile, execute, test, benchmark, link,
+    modify, deploy, host, synthesize hardware from, or otherwise use The Work
+    in whole or in part — including strictly internal corporate R&D, evaluation,
+    or employee use on corporate systems.
+
+4.2 Prohibition on Unlicensed AI Training & Distillation.
+    (a) Capitalist Entities and commercial AI laboratories are strictly
+        prohibited from performing any AI & Automated Model Ingestion (Section
+        1.7) on The Work without an executed paid AI Licensing Agreement with
+        Hyperactive Labs, Inc. Presence of The Work in a publicly readable git
+        repository or decentralized web seed constitutes publication for human
+        and Commons inspection ONLY and explicitly opts out of all statutory or
+        implied text-and-data-mining (TDM) exceptions to the maximum extent
+        permitted by law (including EU Directive 2019/790 Article 4(3)).
+    (b) A Commons Licensee may perform AI & Automated Model Ingestion on The
+        Work solely to train or evaluate a non-commercial model whose complete
+        weights, training code, and training manifest are publicly released
+        under an anti-capitalist commons license no less protective against
+        commercial capture than this License.
+
+4.3 Anti-Circumvention. No Capitalist Entity may circumvent Section 4.1 or 4.2
+    by acting through an individual employee's personal account, an independent
+    contractor, a university lab, a non-profit wrapper, or an affiliate. Any
+    upstream contribution voluntarily submitted to this repository by a third
+    party is provided under this License and grants Licensor the non-exclusive
+    right to include that contribution in both Commons and commercial releases,
+    unless expressly marked otherwise at submission.
+
+5. COMMERCIAL LICENSING
+
+Capitalist Entities wishing to obtain legal rights to evaluate, use, deploy,
+embed, manufacture hardware from, or train models on The Work may apply for a
+paid commercial license from:
+
+  Hyperactive Labs, Inc.
+  Attn: Avik Jain — Commercial Licensing
+  Email: root@hyperactivity.ai
+  Web:   https://hyperactivity.ai
+
+6. PATENT GRANT & DEFENSIVE TERMINATION
+
+Licensor grants each compliant Commons Licensee a royalty-free, non-exclusive
+license under any patent claims owned or licensable by Licensor that are
+necessarily infringed by The Work as distributed by Licensor, solely within the
+scope of Section 2. Every grant of rights under this License terminates
+automatically and retroactively if you (or any affiliate) initiate, fund, or
+assert any patent, copyright, or other claim alleging that The Work or its use
+infringes any right.
+
+7. AUTOMATIC TERMINATION & REMEDIES
+
+Any use of The Work outside the scope of Section 2 or in breach of Section 3 or
+Section 4 automatically and immediately terminates any rights you hold under
+this License without notice. Unauthorized Capitalist or Commercial Use or
+unauthorized AI & Automated Model Ingestion constitutes willful infringement,
+entitling Licensor to injunctive relief, statutory and actual damages,
+disgorgement of commercial profits and trained-model value, and recovery of
+attorneys' fees to the fullest extent of the law.
+
+8. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY
+
+THE WORK IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT. IN NO EVENT SHALL
+LICENSOR OR ANY AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+
+9. SEVERABILITY & GOVERNING LAW
+
+If any provision of this License is held unenforceable in any jurisdiction,
+that provision shall be reformed to the minimum extent necessary to achieve its
+anti-capitalist, anti-enclosure intent (and if not reformable, severed without
+affecting the remaining provisions, provided that no severance shall ever expand
+the grant of rights to any Capitalist Entity). This License is governed by the
+federal copyright and patent laws of the United States and the laws of the State
+of California, without regard to conflict-of-laws rules.
